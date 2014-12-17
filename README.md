@@ -1,4 +1,4 @@
-alva-on-laravel
-===============
+alva-laravel
+============
 
 Alva CMS built using laravel.
