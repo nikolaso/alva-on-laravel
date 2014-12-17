@@ -1,18 +1,14 @@
 {
 	"name": "AlternativeValue-ALVA/alva-laravel",
-	"description": "The Laravel Framework.",
+	"description": "Alva site built on laravel framework",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"robloach/component-installer": "*"
+		"robloach/component-installer": "*",
 		"laravel/framework": "4.2.*",
 	        "components/jquery": "2.1.1"
 	    },
-	    "config": {
-	        "component-dir": "public"
-		},
-	},
 	"autoload": {
 		"classmap": [
 			"app/commands",
@@ -37,7 +33,8 @@
 		]
 	},
 	"config": {
-		"preferred-install": "dist"
+		"preferred-install": "dist",
+		"component-dir": "public"
 	},
 	"minimum-stability": "stable"
 }
